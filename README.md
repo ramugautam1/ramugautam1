@@ -20,7 +20,10 @@ from the transformer that scores a link to the desktop app a biologist double-cl
 </div>
 
 <p align="center">
-  <img src="assets/lineage.png" alt="Nine frames of a protein cluster recording, with the lineage ProTrackFormer recovers below: a three-way merge followed by a four-way split." width="820">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/lineage-dark.png">
+    <img src="assets/lineage-light.png" alt="Nine frames of a protein cluster recording, with the lineage ProTrackFormer recovers below: a three-way merge followed by a four-way split." width="820">
+  </picture>
 </p>
 
 <p align="center"><sub>Par-3 puncta in a *Drosophila* embryo over about a minute, and the lineage ProTrackFormer recovers from them. A three-way merge and a four-way split, three frames apart. Most trackers cannot represent either event.</sub></p>
